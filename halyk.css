@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background: #f9f9f9;
+  color: #222;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+header {
+  background: #006a44;
+  color: #fff;
+  padding: 20px 0;
+}
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.lang {
+  font-size: 14px;
+}
+.hero {
+  background: url('https://via.placeholder.com/1600x500') center/cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
+.hero h1 {
+  font-size: 48px;
+}
+.hero p {
+  margin: 20px 0;
+  font-size: 18px;
+}
+.btn {
+  background: #ffc107;
+  color: #000;
+  padding: 12px 24px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.services {
+  padding: 60px 0;
+  background: #fff;
+}
+.services h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.card {
+  background: #f0f0f0;
+  padding: 30px;
+  width: 220px;
+  text-align: center;
+  border-radius: 10px;
+}
+footer {
+  background: #222;
+  color: #aaa;
+  text-align: center;
+  padding: 20px 0;
+}
